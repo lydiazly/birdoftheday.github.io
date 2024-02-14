@@ -1,0 +1,12 @@
+.contact-right .form-control {
+  color: #222;
+  padding-bottom: 10px;
+}
+
+.contact-right input, .contact-right textarea {
+  color: #222;
+}
+
+.carousel-caption {
+  text-align: justify;
+}
