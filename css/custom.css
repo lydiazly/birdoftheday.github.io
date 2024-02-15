@@ -1,62 +1,116 @@
+:root {
+  --gray: #777777;
+  --light-gray: #dedede;
+  --dark-gray: #222222;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
 @media (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
+  .container {
+    max-width: 540px;
+  }
 }
 
 @media (min-width: 768px) {
-    .container {
-        max-width: 732px;
-    }
+  .container {
+    max-width: 732px;
+  }
 
-    .carousel-caption {
-        left: 20%;
-    }
+  .carousel-caption {
+    left: 20%;
+  }
 }
 
 @media (min-width: 992px) {
-    .container {
-        max-width: 956px;
-    }
+  .container {
+    max-width: 956px;
+  }
 }
 
 @media (min-width: 1200px) {
-    .container {
-        max-width: 1164px;
-    }
+  .container {
+    max-width: 1164px;
+  }
+}
+
+.light-theme {
+  --bg: var(--white);
+  --fontColor: var(--gray);
+  --headerBg: var(--light-gray);
+  --btnFontColor: var(--dark-gray);
+  --capColor: var(--black);
+}
+
+.dark-theme {
+  --bg: var(--dark-gray);
+  --fontColor: var(--white);
+  --headerBg: var(--dark-gray);
+  --btnFontColor: var(--white);
+  --capColor: var(--white);
 }
 
 body {
-    font-size: 16px;
+  background: var(--bg);
+  color: var(--fontColor);
+  font-size: 16px;
+}
+
+h1, h2, h3, .carousel-caption, .carousel-caption h2, .text-white {
+  color: var(--capColor) !important;
+}
+
+.menu-bar span {
+  color: var(--btnFontColor);
+}
+
+.is-sticky .default-header {
+  background-color: var(--headerBg);
 }
 
 .default-header {
-    height: 50px;
+  height: 50px;
 }
 
 .carousel-caption {
-    text-align: justify;
+  text-align: justify;
 }
 
 .contact-right .form-control {
-    color: #222;
-    padding-bottom: 10px;
+  color: #222;
+  padding-bottom: 10px;
 }
 
 .contact-right input, .contact-right textarea {
-    color: #222;
+  color: #222;
 }
 
 .about-left {
-    text-align: right;
+  text-align: right;
 }
 
 input[type="date"] {
-    font-size: 14px;
-    background: rgb(255, 255, 255);
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 0.25rem;
-    vertical-align: middle;
-    padding: 0 10px;
+  font-size: 14px;
+  background: rgb(255, 255, 255);
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  vertical-align: middle;
+  padding: 0 10px;
 }
+
+.btn-switch {
+  font-size: 16px;
+  position: relative;
+  border-radius: 3px;
+  border: none;
+  color: var(--btnFontColor);
+  background: transparent;
+  padding-bottom: 6px;
+  margin: 0;
+}
+
+/* .box {
+  color: #dfdfdf;
+  background-color: currentColor;
+} */
