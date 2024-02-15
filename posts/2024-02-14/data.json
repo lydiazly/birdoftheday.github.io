@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "imageCredit": "Francis C. Franklin"
+    },
+    {
+        "id": 2,
+        "title": "Mandarin Duck",
+        "caption": "Small exotic-looking duck found at lakes and parks, usually with nearby trees. Male very ornate with big orangey \"sail fins\" on the back, streaked orangey cheeks, and a small red bill with a whitish tip. Female has narrow white spectacles on shaggy gray head, bold pale dappled spots along flanks, and pale bill tip. Mainly found in pairs or singly, but will gather in larger flocks over the winter; perches readily in trees over water. Native to East Asia, but has established feral populations throughout Western Europe.",
+        "imageCredit": "Erik Zachte"
+    },
+    {
+        "id": 3,
+        "title": "Mandarin Duck",
+        "caption": "Compared to other ducks, mandarins are shy birds, preferring to seek cover under trees such as overhanging willows, and form smaller flocks, but may become bolder as a result of becoming tame from frequent interaction with humans.",
+        "imageCredit": "Ron Porter"
+    }
+]
+

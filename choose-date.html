@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Add necessary meta tags, title, and CSS links here -->
+</head>
+<body>
+    <header class="default-header">
+        <!-- Include your header content here -->
+    </header>
+
+    <section class="choose-date-area">
+        <div class="container">
+            <h1>Choose Date</h1>
+            <ul id="date-list"></ul>
+        </div>
+    </section>
+
+    <footer class="footer-area">
+        <!-- Include your footer content here -->
+    </footer>
+
+    <!-- Include necessary JavaScript files here -->
+    <script>
+        // Fetch a list of dates from the "posts/" folder
+        fetch('posts/dates.json')
+            .then(response => response.json())
+            .then(data => {
+                const dateList = document.getElementById('date-list');
+                data.dates.forEach(date => {
+                    const listItem = document.createElement('li');
+                    const link = document.createElement('a');
+                    link.textContent = date;
+                    link.href = `index.html?date=${date}`; // Link to index.html with date parameter
+                    listItem.appendChild(link);
+                    dateList.appendChild(listItem);
+                });
+            })
+            .catch(error => console.error('Error fetching dates:', error));
+    </script>
+</body>
+</html>

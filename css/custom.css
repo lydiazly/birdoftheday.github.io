@@ -1,12 +1,62 @@
-.contact-right .form-control {
-  color: #222;
-  padding-bottom: 10px;
+@media (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
 }
 
-.contact-right input, .contact-right textarea {
-  color: #222;
+@media (min-width: 768px) {
+    .container {
+        max-width: 732px;
+    }
+
+    .carousel-caption {
+        left: 20%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 956px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1164px;
+    }
+}
+
+body {
+    font-size: 16px;
+}
+
+.default-header {
+    height: 50px;
 }
 
 .carousel-caption {
-  text-align: justify;
+    text-align: justify;
+}
+
+.contact-right .form-control {
+    color: #222;
+    padding-bottom: 10px;
+}
+
+.contact-right input, .contact-right textarea {
+    color: #222;
+}
+
+.about-left {
+    text-align: right;
+}
+
+input[type="date"] {
+    font-size: 14px;
+    background: rgb(255, 255, 255);
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    vertical-align: middle;
+    padding: 0 10px;
 }

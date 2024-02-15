@@ -1,0 +1,19 @@
+[
+    {
+        "id": 1,
+        "imageCredit": "Vancouver Island Whale Watch"
+    },
+    {
+        "id": 2,
+        "title": "Bald Eagle",
+        "caption": "The Bald Eagle has been the national emblem of the United States since 1782 and a spiritual symbol for native people for far longer than that. These regal birds aren't really bald, but their white-feathered heads gleam in contrast to their chocolate-brown body and wings. Look for them soaring in solitude, chasing other birds for their food, or gathering by the hundreds in winter. Once endangered by hunting and pesticides, Bald Eagles have flourished under protection.",
+        "imageCredit": "Andy Morffew. Taken in Kachemak Bay, Alaska"
+    },
+    {
+        "id": 3,
+        "title": "Immature Bald Eagle",
+        "caption": "Immature Bald Eagles spend the first four years of their lives in nomadic exploration of vast territories and can fly hundreds of miles per day. Some young birds from Florida have wandered north as far as Michigan, and birds from California have reached Alaska.",
+        "imageCredit": "Derek Bakken from Minneapolis, MN"
+    }
+]
+
